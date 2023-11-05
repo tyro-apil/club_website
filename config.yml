@@ -1,4 +1,69 @@
 baseURL: ''
 languageCode: en-us
-title: My New Hugo Site
+title: Robotics Club
 theme: tailbliss
+extended: true
+
+params:
+  author: Apil
+  authorimage: images/luchadortocat.png
+  moto: "Automation in Nepal"
+
+  p1:
+    heading: "Our Mission"
+    image: "images/luchadortocat.png"
+    content: 
+      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque. Dictum varius duis at consectetur lorem donec massa sapien. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Faucibus purus in massa tempor nec feugiat. Integer quis auctor elit sed vulputate mi sit amet. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Mollis aliquam ut porttitor leo. At consectetur lorem donec massa sapien faucibus. Quam quisque id diam vel quam elementum pulvinar etiam non. Habitasse platea dictumst quisque sagittis purus. Fames ac turpis egestas sed tempus."
+
+  p2:
+    heading: "Our vision"
+    image: "images/luchadortocat.png"
+    content: 
+      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nec dui nunc mattis enim ut tellus elementum. Accumsan tortor posuere ac ut consequat semper. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Urna duis convallis convallis tellus id interdum velit. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Nibh sit amet commodo nulla. Tempor orci dapibus ultrices in iaculis nunc."
+
+  p3:
+    heading: "Our values"
+    image: "images/luchadortocat.png"
+    content: 
+      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nec dui nunc mattis enim ut tellus elementum. Accumsan tortor posuere ac ut consequat semper. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Urna duis convallis convallis tellus id interdum velit. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Nibh sit amet commodo nulla. Tempor orci dapibus ultrices in iaculis nunc."
+  
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/nusserstudios'
+    facebook:
+      enabled: true
+      url: 'https://facebook.com/nusserstudios'
+    instagram:
+      enabled: true
+      url: 'https://instagram.com/nusserstudios'
+    twitter:
+      enabled: true
+      url:  '@nusserstudios'
+
+
+menu:
+  main:
+    - identifier: gallery
+      name: Gallery
+      url: /prose/
+      weight: 10
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 20
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.104.0"
+  imports:
+      mounts:
+        - source: layouts
+          target: layouts
+        - source: i18n
+          target: i18n
+        - source: archetypes
+          target: archetypes
+        - source: assets
+          target: assets
