@@ -40,6 +40,9 @@ params:
     twitter:
       enabled: true
       url:  '@nusserstudios'
+    linkedin:
+      enabled: true
+      url: 'https://np.linkedin.com/company/robotics-club-ioe-pulchowk-campus'
 
 
 menu:
