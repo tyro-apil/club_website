@@ -9,6 +9,7 @@ params:
   authorimage: images/luchadortocat.png
   featured_image: images/luchadortocat.png
   moto: "Automation in Nepal"
+  description: "An active club in robotics field in Nepal from Pulchowk Campus"
 
   p1:
     heading: "Our Mission"
