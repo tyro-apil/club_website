@@ -50,7 +50,7 @@ menu:
   main:
     - identifier: events
       name: Events
-      url: /events/
+      url: /prose/
       weight: 10
 
 module:
